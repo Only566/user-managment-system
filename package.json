@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "user-management-system",
+  "version": "1.0.0",
+  "description": "lgh's first complete project",
+  "main": "server/index.ts",
+  "author": "LDD",
+  "license": "MIT",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "devDependencies": {
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}

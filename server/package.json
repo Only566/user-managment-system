@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "nodemon src/index.ts",
+    "start:pro": "node dist/index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/koa-router": "^7.4.4",
+    "http-status": "^1.5.0",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.4",
+    "@types/koa-bodyparser": "^4.3.3",
+    "nodemon": "^2.0.12"
+  }
+}
